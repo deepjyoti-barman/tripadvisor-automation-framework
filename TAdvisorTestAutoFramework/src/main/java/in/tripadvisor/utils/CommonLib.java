@@ -20,7 +20,7 @@ import in.tripadvisor.base.IAutoConstant;
 public class CommonLib implements IAutoConstant
 {	
     /**
-     * Set the wait for loading a page, loading an element and loading a script.
+     * Set the waiting time for loading a page, loading an element and loading a script.
      * 
      * @param driver Current driver reference in use 
      */
@@ -33,7 +33,7 @@ public class CommonLib implements IAutoConstant
 	
 	
     /**
-     * Set the wait for loading a page, loading an element and loading a script taking parameters from user.
+     * Set the waiting time for loading a page, loading an element and loading a script taking parameters from user.
      * 
      * @param driver Current driver reference in use
      * @param iwTimeoutInSecs Implicit wait timeout in seconds
@@ -85,7 +85,7 @@ public class CommonLib implements IAutoConstant
 	
 	
     /**
-     * Move the mouse cursor to the given web element and click on it
+     * Move the mouse cursor to the given web element and click on it.
      * 
      * @param driver Current driver reference in use
      * @param element Element to hover mouse to 
@@ -98,7 +98,7 @@ public class CommonLib implements IAutoConstant
 	
 	
     /**
-     * Move the mouse cursor to the given web element, then move towards given offset towards x-axis and y-axis and click on it
+     * Move the mouse cursor to the given web element, then move towards given offset towards x-axis and y-axis and click on it.
      * 
      * @param driver Current driver reference in use
      * @param element Element to hover mouse to
@@ -113,7 +113,7 @@ public class CommonLib implements IAutoConstant
 	
 	
     /**
-     * Scroll down until the given element comes on top of the viewport
+     * Scroll down until the given element comes on top of the viewport.
      * 
      * @param driver Current driver reference in use
      * @param element Element to scroll down to

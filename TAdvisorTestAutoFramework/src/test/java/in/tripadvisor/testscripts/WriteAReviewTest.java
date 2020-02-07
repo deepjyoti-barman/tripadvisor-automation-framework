@@ -25,6 +25,6 @@ public class WriteAReviewTest extends BaseTest
         HotelReviewPage tAdvisorHRP    = tAdvisorSRP.clickOnFirstOption();
         UserReviewEditPage tAdvisorREP = tAdvisorHRP.writeAReview();
             
-        tAdvisorREP.rateWith5Stars("Outstand Experience", "A resort like never seen before.");
+        tAdvisorREP.rateWith5Stars("Outstanding Experience", "Great location, tasty meals and really pleasant and clean rooms - everything that one requires");
     }
 }
