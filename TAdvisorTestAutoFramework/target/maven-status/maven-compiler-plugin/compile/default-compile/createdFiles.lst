@@ -1,0 +1,8 @@
+in\tripadvisor\utils\FileLib.class
+in\tripadvisor\pages\HomePage.class
+in\tripadvisor\utils\CommonLib.class
+in\tripadvisor\pages\HotelReviewPage.class
+in\tripadvisor\pages\SearchResultsPage.class
+in\tripadvisor\pages\UserReviewEditPage.class
+in\tripadvisor\base\BaseTest.class
+in\tripadvisor\base\IAutoConstant.class

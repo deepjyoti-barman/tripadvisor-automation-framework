@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TripAdvisor]">
+  <test thread-count="5" verbose="0" name="WriteAReviewTest(failed)">
+    <classes>
+      <class name="in.tripadvisor.testscripts.WriteAReviewTest">
+        <methods>
+          <include name="tc_001_writeAndSubmitReview"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="loadApp"/>
+        </methods>
+      </class> <!-- in.tripadvisor.testscripts.WriteAReviewTest -->
+    </classes>
+  </test> <!-- WriteAReviewTest(failed) -->
+</suite> <!-- Failed suite [TripAdvisor] -->

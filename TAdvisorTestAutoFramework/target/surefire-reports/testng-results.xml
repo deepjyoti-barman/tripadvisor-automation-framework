@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TripAdvisor" duration-ms="71968" started-at="2020-02-02T07:33:48Z" finished-at="2020-02-02T07:34:59Z">
+    <groups>
+    </groups>
+    <test name="WriteAReviewTest" duration-ms="71968" started-at="2020-02-02T07:33:48Z" finished-at="2020-02-02T07:34:59Z">
+      <class name="in.tripadvisor.testscripts.WriteAReviewTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:in.tripadvisor.testscripts.WriteAReviewTest@2d554825]" name="openBrowser" is-config="true" duration-ms="6167" started-at="2020-02-02T07:33:48Z" finished-at="2020-02-02T07:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loadApp()[pri:0, instance:in.tripadvisor.testscripts.WriteAReviewTest@2d554825]" name="loadApp" is-config="true" duration-ms="26718" started-at="2020-02-02T07:33:54Z" finished-at="2020-02-02T07:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApp -->
+        <test-method status="PASS" signature="tc_001_writeAndSubmitReview()[pri:0, instance:in.tripadvisor.testscripts.WriteAReviewTest@2d554825]" name="tc_001_writeAndSubmitReview" duration-ms="39019" started-at="2020-02-02T07:34:20Z" finished-at="2020-02-02T07:34:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_writeAndSubmitReview -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.tripadvisor.testscripts.WriteAReviewTest@2d554825]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-02-02T07:34:59Z" finished-at="2020-02-02T07:34:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.tripadvisor.testscripts.WriteAReviewTest -->
+    </test> <!-- WriteAReviewTest -->
+  </suite> <!-- TripAdvisor -->
+</testng-results>

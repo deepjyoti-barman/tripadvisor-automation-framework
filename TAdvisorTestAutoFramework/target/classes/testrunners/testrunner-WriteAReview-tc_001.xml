@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TripAdvisor">
+    <test name="WriteAReviewTest">
+        <classes>
+            <class name="in.tripadvisor.testscripts.WriteAReviewTest">
+                <methods>
+                    <include name="tc_001_writeAndSubmitReview" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
